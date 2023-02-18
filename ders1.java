@@ -44,6 +44,20 @@ public class JavaApplication2 {
             b++;                  
         }while(b<10);
         
+        /**İf Else Else İf**/
+                int i=11;
+        if(i==10){
+        System.out.println("bu sayı 10");
+                                                                 
+    }
+        else if(i<10){
+        System.out.println("sayı ondan küçük ");
+        }
+        else{
+        System.out.println("bu sayı 10 değil ve ondan büyük");
+        }
+        
+        
     }
     
 }
