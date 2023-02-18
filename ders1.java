@@ -22,7 +22,27 @@ public class JavaApplication2 {
         System.out.println(s.substring(0, ilkBosluk));//belirli iki karatkterin arasını yazdırma
         int sonBosluk = s.lastIndexOf(" ");//sondan belirli karakteri sona kadar yazdırma
         System.out.println(s.substring(sonBosluk));
-        System.out.println(s.charAt(5));//inndex numarası verilen karakteri yazdırma                                      
+        System.out.println(s.charAt(5));//inndex numarası verilen karakteri yazdırma    
+        
+        
+        
+        /***Döngüler***/
+                    //For Döngüsü
+        for(int i = 0;i<10;i++){ //loop variable
+            System.out.println("sonuç :"+i);   
+            }
+                    //While Döngüsü
+        int a=0;
+        while(a<10){
+            System.out.println("Sonuç :"+a);
+            a++;
+        }
+                   //Do While Döngüsü
+        int b=0;   
+        do{
+            System.out.println("2.Mesaj :"+b);
+            b++;                  
+        }while(b<10);
         
     }
     
